@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {margin:0;
+    padding: 0;
+}
+
+body {  font-family: "IM Fell English", serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 20px 50px;
+}
+
+nav a {color: white;
+    text-decoration:none;}
+
+    .logo a, .menu {
+        display: flex;
+    gap: 20px}
